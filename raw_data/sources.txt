@@ -1,0 +1,7 @@
+mayoclinic - https://www.kaggle.com/priya1207/diseases-dataset?select=disease_components.csv
+OHAS - https://www.kaggle.com/usamag123/disease-prediction-through-symptoms
+dia - https://www.kaggle.com/plarmuseau/sdsort?select=dia_3.csv
+flaredown - https://www.kaggle.com/flaredown/flaredown-autoimmune-symptom-tracker
+dsp - https://www.kaggle.com/itachi9604/disease-symptom-description-dataset?select=dataset.csv
+symptoms - https://www.kaggle.com/kaushil268/disease-prediction-using-machine-learning
+eg - https://www.kaggle.com/edgarjames/disease-predictor
