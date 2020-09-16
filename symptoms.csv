@@ -1,0 +1,531 @@
+original,dataset,unified,symptom_id
+L.A. Pain,eg,Боль в животе,1
+U.A. pain,eg,Боль в животе,1
+Vomiting feeling,eg,Рвота,2
+Yellowship Urine,eg,Неестественная желтизна мочи,3
+Indigestion,eg,Несварение,4
+Temperature,eg,Повышенная температура,5
+uncoordination,OHAS,Нарушение координации,6
+fever,OHAS,Повышенная температура,5
+pleuritic pain,OHAS,Боль в груди,7
+snuffle,OHAS,Насморк,8
+throat sore,OHAS,Боль в горле,9
+malaise,OHAS,Недомогание,10
+debilitation,OHAS,Общая слабость,11
+asthenia,OHAS,Хроническая усталость,12
+chill,OHAS,Озноб,13
+scleral icterus,OHAS,Пожелтение глаз,14
+nasal flaring,OHAS,Расширение ноздрей,15
+dysuria,OHAS,Боль при мочеиспускании,16
+lip smacking,OHAS,Причмокивания,17
+headache,OHAS,Головная боль,18
+sneeze,OHAS,Насморк,8
+snore,OHAS,Храп,19
+green sputum,OHAS,Мокрота,20
+shortness of breath,OHAS,Одышка,21
+distress respiratory,OHAS,"Одышка, синеватая кожа",22
+blackout,OHAS,Провалы в памяти,23
+extreme exhaustion,OHAS,Истощение,24
+heme positive,OHAS,Кровь в кале,25
+pain abdominal,OHAS,Боль в животе,1
+vomiting,OHAS,рвота,2
+disequilibrium,OHAS,Кровь в кале,25
+nausea,OHAS,Тошнота,26
+intoxication,OHAS,Отравлепние,27
+haemorrhage,OHAS,-,
+guaiac positive,OHAS,Кровь в кале,25
+pain,OHAS,-,
+decreased body weight,OHAS,Снижение веса,28
+sore to touch,OHAS,Боль при прикосновениях,29
+dizziness,OHAS,Головокружение,30
+pain chest,OHAS,Боль в груди,7
+sweat,OHAS,Повышенное потоотделение,31
+sweating increased,OHAS,Повышенное потоотделение,31
+nonsmoker,OHAS,-,
+pressure chest,OHAS,Давит в груди,32
+syncope,OHAS,Обморок,33
+numbness,OHAS,-,
+chest discomfort,OHAS,Дискомфорт в груди,34
+st segment depression,OHAS,-,
+worry,OHAS,Тревожное состояние,35
+t wave inverted,OHAS,-,
+bradycardia,OHAS,-,
+dyspnea,OHAS,Одышка,21
+seizure,OHAS,Судорожные припадки,36
+hypometabolism,OHAS,-,
+aura,OHAS,Аура,37
+muscle twitch,OHAS,Судороги,38
+drowsiness,OHAS,Сонливость,39
+tremor,OHAS,Дрожь,40
+unresponsiveness,OHAS,Притупление чувств,41
+hemiplegia,OHAS,Паралич половины тела,42
+myoclonus,OHAS,Судороги,38
+gurgle,OHAS,Бульканье в груди,43
+sleepy,OHAS,Сонливость,39
+lethargy,OHAS,Вялость,44
+wheelchair bound,OHAS,-,
+hyperkalemia,OHAS,-,
+orthopnea,OHAS,Одышка,21
+rale,OHAS,Хрип,45
+urgency of micturition,OHAS,Недержание,46
+ascites,OHAS,Сильное вздутие живота,47
+apyrexial,OHAS,Повышенная температура,5
+mental status changes,OHAS,Психические расстройства,48
+difficulty,OHAS,Тяжесть в теле,49
+diarrhea,OHAS,Диарея,50
+hypotension,OHAS,Пониженное давление,51
+breath sounds decreased,OHAS,Трудно дышать,52
+swelling,OHAS,-,
+hypokinesia,OHAS,Затрудненные движения,53
+lightheadedness,OHAS,Головокружение,30
+unwell,OHAS,-,
+anorexia,OHAS,Анорексия,54
+sensory discomfort,OHAS,Притупление чувств,41
+history of - blackout,OHAS,Провалы в памяти,23
+prostatism,OHAS,Боль при почеиспускании,55
+hyponatremia,OHAS,-,
+fall,OHAS,Обморок,33
+unsteady gait,OHAS,Шаткая походка,56
+polyuria,OHAS,Недержание,46
+nightmare,OHAS,Ночные кошмары,57
+speech slurred,OHAS,Невнятная речь,58
+weight gain,OHAS,Повышение веса,59
+fatigue,OHAS,Хроническая усталость,12
+tired,OHAS,Хроническая усталость,12
+agitation,OHAS,Волнение,60
+motor retardation,OHAS,Затрудненные движения,53
+mass of body structure,OHAS,Лишний вес,61
+fatigability,OHAS,Быстрая утомляемость,62
+prodrome,OHAS,Тошнота,26
+myalgia,OHAS,Боль в мышцах,63
+general discomfort,OHAS,Общий дискомфорт,64
+dyspnea on exertion,OHAS,Одышка,21
+asterixis,OHAS,Тяжело находиться в одном положении,65
+numbness of hand,OHAS,Онемение рук,66
+photophobia,OHAS,Боязнь света,67
+para 2,OHAS,-,
+abortion,OHAS,-,
+intermenstrual heavy bleeding,OHAS,Сильное межменструальное кровотоечение,68
+muscle hypotonia,OHAS,-,
+hypotonic,OHAS,Пониженное давление,51
+previous pregnancies 2,OHAS,-,
+heartburn,OHAS,Изжога,69
+primigravida,OHAS,-,
+abnormally hard consistency,OHAS,Увеличение лимфатических узлов,70
+proteinemia,OHAS,-,
+paresthesia,OHAS,Жжение и покалывания на коже,71
+titubation,OHAS,Заикание,72
+dysarthria,OHAS,Нарушение речи,73
+painful swallowing,OHAS,Боль при глотании,74
+hoarseness,OHAS,Хрип,45
+stridor,OHAS,Шумный свист при дыхании,75
+stridor,OHAS,Спазмы,76
+dysdiadochokinesia,OHAS,-,
+ataxia,OHAS,Потеря контроля над телом,77
+suicidal,OHAS,Суицидальные мысли,78
+hoard,OHAS,Накопительство,79
+irritable mood,OHAS,Раздражительность,80
+neologism,OHAS,"Придумывание ""своих"" слов",81
+feeling suicidal,OHAS,Суицидальные мысли,78
+feeling hopeless,OHAS,Чувство безнадежности,82
+hallucinations auditory,OHAS,Слуховые галлюцинации,83
+achalasia,OHAS,Спазмы,76
+stiffness,OHAS,Оцепенение,84
+lesion,OHAS,Поражения кожи,85
+side pain,OHAS,Боль в боку,86
+hirsutism,OHAS,Аномально сильный волосяной покров,87
+sniffle,OHAS,Насморк,8
+distended abdomen,OHAS,узловые высыпания на коже,88
+vertigo,OHAS,Головокружение,30
+bradykinesia,OHAS,Замедленная ходьба и речь,89
+out of breath,OHAS,Одышка,21
+urge incontinence,OHAS,Недержание,46
+homelessness,OHAS,-,
+sleeplessness,OHAS,Бессоница,90
+unconscious state,OHAS,-,
+panic,OHAS,Панические атаки,91
+wheezing,OHAS,Хрип,45
+cough,OHAS,Кашель,92
+chest tightness,OHAS,Стеснение в груди,93
+non-productive cough,OHAS,Кашель,92
+productive cough,OHAS,Кашель,92
+symptom aggravating factors,OHAS,-,
+tachypnea,OHAS,Учащенное дыхание,94
+breech presentation,OHAS,-,
+cyanosis,OHAS,Синюшная кожа,95
+itching,dsp,Зуд,96
+skin rash,dsp,Сыпь на коже,97
+nodal skin eruptions,dsp,узловые высыпания на коже,88
+continuous sneezing,dsp,Насморк,8
+chills,dsp,-,
+joint pain,dsp,Боль в суставах,98
+stomach pain,dsp,Боль в животе,1
+acidity,dsp,Кислотный рефлюкс,99
+ulcers on tongue,dsp,язвы на языке,100
+muscle wasting,dsp,атрофия мышц,101
+burning micturition,dsp,Боль при мочеиспускании,16
+spotting  urination,dsp,кровянистые выделения при мочеиспускании,102
+weight gain,dsp,Повышение веса,59
+anxiety,dsp,Тревожное состояние,35
+cold hands and feets,dsp,холодные руки и ноги,103
+mood swings,dsp,перепады настроения,104
+weight loss,dsp,Снижение веса,28
+restlessness,dsp,Повышенная энергия,105
+patches in throat,dsp,-,
+irregular sugar level,dsp,Скачки сахара,106
+cough,dsp,Кашель,92
+high fever,dsp,Повышенная температура,5
+sunken eyes,dsp,Впалые глаза,107
+breathlessness,dsp,Одышка,21
+dehydration,dsp,Обезвоживание,108
+indigestion,dsp,Расстройство желудка,109
+yellowish skin,dsp,Неестественно желтая кожа,110
+dark urine,dsp,Тёмная моча,111
+loss of appetite,dsp,Потеря аппетита,112
+pain behind the eyes,dsp,Боль за глазами,113
+back pain,dsp,Боль в спине,114
+constipation,dsp,Запор,115
+abdominal pain,dsp,Боль в животе,1
+diarrhoea,dsp,Диарея,50
+mild fever,dsp,Повышенная температура,5
+yellow urine,dsp,Неестественная желтизна мочи,3
+yellowing of eyes,dsp,Пожелтение глаз,14
+acute liver failure,dsp,-,
+fluid overload,dsp,-,
+swelling of stomach,dsp,Вздутие живота,116
+swelled lymph nodes,dsp,Увеличение лимфатических узлов,70
+blurred and distorted vision,dsp,Нарушения зрения,117
+phlegm,dsp,мокрота,20
+throat irritation,dsp,Боль в горле,9
+redness of eyes,dsp,покраснение глаз,118
+sinus pressure,dsp,-,
+runny nose,dsp,Насморк,8
+congestion,dsp,-,
+chest pain,dsp,Боль в груди,7
+weakness in limbs,dsp,Слабость в конечностях,119
+fast heart rate,dsp,Быстрый ритм сердца,120
+pain during bowel movements,dsp,Боль во время дефекации,121
+pain in anal region,dsp,Боль в анальной области,122
+bloody stool,dsp,Кровь в кале,25
+irritation in anus,dsp,Раздражение в Заднем Проходе,123
+neck pain,dsp,Боль в шее,124
+cramps,dsp,Судороги,38
+bruising,dsp,Синяки,125
+obesity,dsp,Ожирение,126
+swollen legs,dsp,Опухшие ноги,127
+swollen blood vessels,dsp,Опухшие кровеносные сосуды,128
+puffy face and eyes,dsp,Опухшее лицо и глаза,129
+enlarged thyroid,dsp,Увеличение щитовидной железы,130
+brittle nails,dsp,Ломкие ногти,131
+swollen extremeties,dsp,Опухшие конечности,132
+excessive hunger,dsp,Голод,133
+extra marital contacts,dsp,Внебрачные контакты,134
+drying and tingling lips,dsp,Сухость и покалывание губ,135
+slurred speech,dsp,Невнятная речь,58
+knee pain,dsp,Боль в коленях,136
+hip joint pain,dsp,Боль в тазобедренном суставе,137
+muscle weakness,dsp,Мышечная слабость,138
+stiff neck,dsp,-,
+swelling joints,dsp,Опухание суставов,139
+movement stiffness,dsp,Жесткость движения,140
+spinning movements,dsp,-,
+loss of balance,dsp,Нарушение равновесия,141
+unsteadiness,dsp,Потеря контроля над телом,77
+loss of smell,dsp,Потеря обоняния,142
+bladder discomfort,dsp,Дискомфорт в мочевом пузыре,143
+foul smell of urine,dsp,Отвратительный запах мочи,144
+continuous feel of urine,dsp,Частое мочеиспускание,145
+passage of gases,dsp,Метеоризм,146
+toxic look (typhos),dsp,-,
+depression,dsp,Депрессия,147
+irritability,dsp,Раздражительность,80
+muscle pain,dsp,Мышечная боль,148
+altered sensorium,dsp,-,
+red spots over body,dsp,Красные пятна на теле,149
+abnormal menstruation,dsp,Аномальные менструации,150
+dischromic  patches,dsp,Изменение цвета кожи,151
+watering from eyes,dsp,Слезотечение из глаз,152
+increased appetite,dsp,Повышенный аппетит,153
+family history,dsp,-,
+mucoid sputum,dsp,Мокрота,20
+rusty sputum,dsp,Мокрота,20
+lack of concentration,dsp,Отсутствие концентрации,154
+visual disturbances,dsp,Нарушения зрения,117
+receiving blood transfusion,dsp,Получение переливания крови,155
+receiving unsterile injections,dsp,Прием нестерильных инъекций,156
+coma,dsp,Кома,157
+stomach bleeding,dsp,-,
+distention of abdomen,dsp,Вздутие живота,116
+history of alcohol consumption,dsp,Алкоголизм,158
+blood in sputum,dsp,Кровь в мокроте,159
+prominent veins on calf,dsp,Выступающие вены на икре,160
+palpitations,dsp,Учащенное сердцебиение,161
+painful walking,dsp,Боль при ходьбе,162
+pus filled pimples,dsp,Прыщи,163
+blackheads,dsp,Угри,164
+scurring,dsp,-,
+skin peeling,dsp,шелушение кожи,165
+silver like dusting,dsp,-,
+small dents in nails,dsp,Маленькие вмятины на ногтях,166
+inflammatory nails,dsp,Воспалительные ногти,167
+blister,dsp,Волдырь,168
+red sore around nose,dsp,Болевое покраснение в районе носа,169
+yellow crust ooze,dsp,Желтые корки на коже,170
+prognosis,dsp,-,
+spontaneous rupture of membranes,OHAS,Разрыв мембраны матки,171
+hallucinations visual,OHAS,Зрительные галлюцинации,172
+verbal auditory hallucinations,OHAS,Слуховые галлюцинации,83
+terrify,OHAS,Состояние ужаса,173
+energy increased,OHAS,Повышенная энергия,105
+mood depressed,OHAS,Депрессия,147
+decompensation,OHAS,Нарушение работы органов,174
+cicatrisation,OHAS,Рубцы,175
+scar tissue,OHAS,Рубцы,175
+loose associations,OHAS,Несовпадение ответов и вопросов,176
+abscess bacterial,OHAS,Бактериальные нарывы,177
+abdomen acute,OHAS,Боль в животе,1
+air fluid level,OHAS,Жидкость в легких,178
+catching breath,OHAS,Одышка,21
+abdominal tenderness,OHAS,Боль в животе,1
+flatulence,OHAS,Метеоризм,146
+constipation,OHAS,Запор,115
+thicken,OHAS,-,
+gravida 0,OHAS,-,
+hematuria,OHAS,Выделение крови при мочеиспускании,179
+tumor cell invasion,OHAS,-,
+anosmia,OHAS,Потеря обоняния,142
+metastatic lesion,OHAS,-,
+food intolerance,OHAS,-,
+night sweat,OHAS,Обильное ночное потоотделение,180
+hemianopsia homonymous,OHAS,Потеря зрения одним глазом,181
+satiety early,OHAS,Быстрая насыщаемость,182
+sedentary,OHAS,Сидячий образ жизни,183
+angina pectoris,OHAS,Боль в груди,7
+unhappy,OHAS,Чувство несчастья,184
+labored breathing,OHAS,Затрудненное дыхание,185
+"hypothermia, natural",OHAS,Крайне низкая температура тела,186
+hematocrit decreased,OHAS,-,
+hypoxemia,OHAS,-,
+renal angle tenderness,OHAS,Боль в почках,187
+feels hot/feverish,OHAS,Повышенная температура,5
+cushingoid facies,OHAS,Неестественаая округлость лица,188
+cushingoid habitus,OHAS,Неестественаая округлость лица,188
+emphysematous change,OHAS,Затрудненное дыхание,185
+pansystolic murmur,OHAS,-,
+jugular venous distention,OHAS,Вздутие ярменных вен,189
+systolic ejection murmur,OHAS,-,
+mass in breast,OHAS,Скопление жира на груди,190
+retropulsion,OHAS,Склонность к ходьбе задом наперед,191
+erythema,OHAS,Разрыв капиляров,192
+estrogen use,OHAS,-,
+burning sensation,OHAS,Жжение и покалывания на коже,71
+formication,OHAS,Мурашки по телу,193
+phonophobia,OHAS,Боязнь громких звуков,194
+rolling of eyes,OHAS,Закатывание глаз,195
+moody,OHAS,-,
+ambidexterity,OHAS,-,
+absences finding,OHAS,-,
+facial paresis,OHAS,Частичный паралич лица,196
+neck stiffness,OHAS,Скованность шеи,197
+extrapyramidal sign,OHAS,Спонтанные движения телом,198
+Stahli's line,OHAS,-,
+vision blurred,OHAS,Нарушения зрения,117
+room spinning,OHAS,Головокружение,30
+rambling speech,OHAS,Невнятная речь,58
+clumsiness,OHAS,Нарушение координации,6
+dysesthesia,OHAS,Дизестезия,199
+polymyalgia,OHAS,Боль в мышцах,63
+passed stones,OHAS,Камни в почках,200
+qt interval prolonged,OHAS,-,
+paresis,OHAS,Частичный паралич тела,201
+hemodynamically stable,OHAS,-,
+rhonchus,OHAS,Хрип,45
+orthostasis,OHAS,-,
+yellow sputum,OHAS,Мокрота,20
+mediastinal shift,OHAS,-,
+impaired cognition,OHAS,"Нарушение сознания (памяти, изучение нового)",202
+sinus rhythm,OHAS,-,
+general unsteadiness,OHAS,Нарушение координации,6
+bruit,OHAS,-,
+consciousness clear,OHAS,-,
+redness,OHAS,Неестественно красная кожа,203
+polydypsia,OHAS,Чувство жажды,204
+clonus,OHAS,Судороги,38
+egophony,OHAS,Голос похож на блеянье козы,205
+aphagia,OHAS,Больно глотать,206
+paralyse,OHAS,Частичный паралич тела,201
+low back pain,OHAS,Боль в спине,114
+charleyhorse,OHAS,Спазмы,76
+pain neck,OHAS,Боль в шее,124
+lung nodule,OHAS,-,
+atypia,OHAS,-,
+urinary hesitation,OHAS,Боль при почеиспускании,55
+dizzy spells,OHAS,Головокружение,30
+shooting pain,OHAS,Стреляющая боль,207
+prolonged vomiting,OHAS,рвота,2
+welt,OHAS,Волдырь,168
+transaminitis,OHAS,-,
+tinnitus,OHAS,Звон в ушах,208
+hydropneumothorax,OHAS,-,
+superimposition,OHAS,-,
+haemoptysis,OHAS,Харканье кровью,209
+difficulty passing urine,OHAS,Боль при мочеиспускании,16
+monoclonal,OHAS,-,
+ecchymosis,OHAS,Красные пятна на теле,149
+pallor,OHAS,Неестественная бледность,210
+pain back,OHAS,Боль в спине,114
+arthralgia,OHAS,Боль в суставах,98
+sputum purulent,OHAS,Мокрота,20
+hypercapnia,OHAS,-,
+patient non compliance,OHAS,-,
+breakthrough pain,OHAS,"Боль, не исчезающая от обезболивающего",211
+hepatosplenomegaly,OHAS,"Выбухание под правыми ребрами, смещающееся при вдохне",212
+moan,OHAS,Стоны,213
+Murphy's sign,OHAS,-,
+colic abdominal,OHAS,Колики в животе,214
+cardiovascular finding,OHAS,Сердечно-сосудистые заболевания,215
+cardiovascular event,OHAS,Сердечно-сосудистые заболевания,215
+groggy,OHAS,Нарушение координации,6
+gasping for breath,OHAS,Одышка,21
+feces in rectum,OHAS,Запор,115
+catatonia,OHAS,Ступор,216
+weepiness,OHAS,Плаксивость,217
+withdraw,OHAS,Ломка,218
+behavior hyperactive,OHAS,Гиперактивность,219
+hypertonicity,OHAS,Напряжение в мышцах,220
+hypoalbuminemia,OHAS,-,
+pruritus,OHAS,Зуд,96
+stool color yellow,OHAS,Желтый цвет стула,221
+oliguria,OHAS,Аномально малое количество мочи,222
+unable to concentrate,OHAS,Невозможность сконцентрироваться,223
+st segment elevation,OHAS,-,
+presence of q wave,OHAS,-,
+palpitation,OHAS,"Быстрое, сильное, прерывистое сердцебиение",224
+r wave feature,OHAS,-,
+has religious belief,OHAS,-,
+overweight,OHAS,Лишний вес,61
+systolic murmur,OHAS,-,
+left atrial hypertrophy,OHAS,-,
+alcohol binge episode,OHAS,Алкоголизм,158
+hot flush,OHAS,Внезапное чувство жара,225
+feeling strange,OHAS,-,
+pustule,OHAS,Прыщи,163
+fecaluria,OHAS,Моча с примесью кала,226
+projectile vomiting,OHAS,рвота,2
+pneumatouria,OHAS,Выделение воздуха вместе с мочой,227
+cystic lesion,OHAS,-,
+slowing of urinary stream,OHAS,Замедленное выделение мочи,228
+enuresis,OHAS,Недержание,46
+no status change,OHAS,-,
+bedridden,OHAS,-,
+hypersomnolence,OHAS,Сонливость,39
+underweight,OHAS,Недостаток веса,229
+frail,OHAS,Повышенная утомляемость,230
+posturing,OHAS,Нарушение осанки,231
+tonic seizures,OHAS,Судороги,38
+drool,OHAS,Обильное слюноотделение,232
+pin-point pupils,OHAS,Зрачки-точки,233
+tremor resting,OHAS,Тремор в покое,234
+paraparesis,OHAS,Паралич двух рук или двух ног,235
+fear of falling,OHAS,Боязнь высоты,236
+para 1,OHAS,-,
+disturbed family,OHAS,-,
+hypersomnia,OHAS,Сонливость,39
+hyperhidrosis disorder,OHAS,Повышенное потоотделение,31
+mydriasis,OHAS,Расширение зрачка,237
+exhaustion,OHAS,Истощение,24
+pericardial friction rub,OHAS,-,
+cardiomegaly,OHAS,-,
+large-for-dates fetus,OHAS,-,
+immobile,OHAS,-,
+flare,OHAS,"необоснованные подъёмы температуры, слабость, головные боли, боли в мышцах, быструю утомляемость",238
+pulsus paradoxus,OHAS,Пониженное давление,51
+nan,OHAS,-,
+soft tissue swelling,OHAS,Отеки,239
+poor dentition,OHAS,Нарушение прикуса,240
+adverse reaction,OHAS,Аллергия на лекарства,241
+adverse effect,OHAS,Аллергия на лекарства,241
+abdominal bloating,OHAS,Вздутие живота,116
+nervousness,OHAS,Нервозность,242
+splenomegaly,OHAS,-,
+bleeding of vagina,OHAS,Кровотечение влагалища,243
+hypoproteinemia,OHAS,-,
+dullness,OHAS,-,
+red blotches,OHAS,Красные пятна на коже,244
+no known drug allergies,OHAS,-,
+fremitus,OHAS,Вибрация тела при дыхании,245
+hunger,OHAS,Голод,133
+behavior showing increased motor activity,OHAS,Гиперактивность,219
+coordination abnormal,OHAS,Нарушение координации,6
+clammy skin,OHAS,Липкая кожа,246
+cachexia,OHAS,Истощение,24
+flushing,OHAS,Неестественно красная кожа,203
+choke,OHAS,Удушье,247
+tenesmus,OHAS,"постоянные, режущие, тянущие, жгущие боли в области прямой кишки, без выделения кала",248
+incoherent,OHAS,Невнятная речь,58
+lameness,OHAS,Хромота,249
+claudication,OHAS,Хромота,249
+stuffy nose,OHAS,Заложенность носа,250
+heavy legs,OHAS,Тяжесть в ногах,251
+prostate tender,OHAS,Повышенная чувствительность простаты,252
+pain foot,OHAS,Боль в ступнях,253
+bowel sounds decreased,OHAS,Запор,115
+decreased stool caliber,OHAS,Уменьшение количества стула,254
+nausea and vomiting,OHAS,"Тошнота, рвота",255
+indifferent mood,OHAS,Состояние безразличия,256
+hepatomegaly,OHAS,-,
+stupor,OHAS,Ступор,216
+rigor - temperature-associated observation,OHAS,Озноб,13
+hacking cough,OHAS,Кашель,92
+dyspareunia,OHAS,Боль во время проникновения (половой акт),257
+hypokalemia,OHAS,-,
+floppy,OHAS,Состояние безразличия,256
+Heberden's node,OHAS,Твердые выступы на пальцах,258
+focal seizures,OHAS,Судорожные припадки,36
+abnormal sensation,OHAS,-,
+stinging sensation,OHAS,Жжение и покалывания на коже,71
+asymptomatic,OHAS,-,
+rest pain,OHAS,Боль в состоянии покоя,259
+monocytosis,OHAS,-,
+posterior rhinorrhea,OHAS,Выделения из носа,260
+hematochezia,OHAS,Кровь в кале,25
+macule,OHAS,Красные пятна на коже,244
+scratch marks,OHAS,Царапины на коже,261
+decreased translucency,OHAS,-,
+hypesthesia,OHAS,Пониженная чувствительность кожи,262
+hyperacusis,OHAS,Усиленное восприятие звуков,263
+breath-holding spell,OHAS,-,
+retch,OHAS,рвота,2
+hyperventilation,OHAS,Учащенное дыхание,94
+excruciating pain,OHAS,-,
+gag,OHAS,-,
+pulse absent,OHAS,-,
+awakening early,OHAS,Раннее пробуждение,264
+pain in lower limb,OHAS,Боль в ногах,265
+transsexual,OHAS,-,
+photopsia,OHAS,"Пятна, точки и фигуры перед глазами",266
+giddy mood,OHAS,Головокружение,30
+throbbing sensation quality,OHAS,Пульсации по всему телу,267
+sciatica,OHAS,Радикулит,268
+frothy sputum,OHAS,Мокрота,20
+homicidal thoughts,OHAS,Мысли об убийстве,269
+verbally abusive behavior,OHAS,-,
+barking cough,OHAS,Кашель,92
+rapid shallow breathing,OHAS,Учащенное дыхание,94
+noisy respiration,OHAS,Шумное дыхание,270
+nasal discharge present,OHAS,Выделения из носа,260
+milky,OHAS,Неестественная бледность,210
+regurgitates after swallowing,OHAS,Отрыжка,271
+blanch,OHAS,Неестественная бледность,210
+elation,OHAS,-,
+todd paralysis,OHAS,Прситупы слабости,272
+alcoholic withdrawal symptoms,OHAS,Алкоголизм,158
+urinoma,OHAS,Боль в почках,187
+hypocalcemia result,OHAS,-,
+rhd positive,OHAS,-,
+inappropriate affect,OHAS,-,
+poor feeding,OHAS,-,
+ache,OHAS,-,
+macerated skin,OHAS,Морщинистая кожа,273
+heavy feeling,OHAS,Тяжесть в теле,49
+gravida 10,OHAS,-,

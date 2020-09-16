@@ -1,0 +1,187 @@
+original,dataset,unified,disease_id
+Heart Disease ,eg,Заболевание сердца,1
+Viral Fever or Cold ,eg,Простуда,2
+Jaundice,eg,Желтуха,3
+Food poisoning,eg,Пищевое отравление,4
+Patient is normal,eg,-,
+influenza,OHAS,Грипп,5
+gastritis,OHAS,Гастрит,6
+hypercholesterolemia,OHAS,Гиперхолестеринимимя,7
+epilepsy,OHAS,Эпилепсия,8
+insufficiency renal,OHAS,Почечная недостаточность,9
+dehydration,OHAS,Обзевоживание,10
+hypothyroidism,OHAS,Гипотиреоз,11
+hernia hiatal,OHAS,Грыжа ,12
+fibroid tumor,OHAS,Опухоль,13
+deglutition disorder,OHAS,Дисфагия (нарушение глотания),14
+osteoporosis,OHAS,Остеопороз,15
+chronic alcoholic intoxication,OHAS,Хронический алкоголизм,16
+asthma,OHAS,Астма,17
+sepsis (invertebrate),OHAS,Заражение крови,18
+paranoia,OHAS,Паранойя,19
+ileus,OHAS,Кишечная непроходимость,20
+neoplasm,OHAS,Опухоль,13
+obesity morbid,OHAS,Ожирение,21
+primary malignant neoplasm,OHAS,Опухоль,13
+failure heart,OHAS,Заболевание сердца,1
+malignant neoplasm of breast,OHAS,Опухоль,13
+tonic-clonic epilepsy,OHAS,Эпилепсия,8
+transient ischemic attack,OHAS,Транзиторная ишемическая атака,22
+malignant neoplasm of prostate,OHAS,Опухоль,13
+embolism pulmonar,OHAS,Эмболия легочной артерии,23
+tricuspid valve insufficiency,OHAS,Заболевание сердца,1
+respiratory failure,OHAS,Легочная недостаточность,24
+degenerative polyarthritis,OHAS,Полиартрит,25
+aphasia,OHAS,Потеря речи,26
+neoplasm metastasis,OHAS,Опухоль,13
+malignant tumor of colon,OHAS,Опухоль,13
+lymphoma,OHAS,Лимфома,27
+anemia,OHAS,Анемия,28
+chronic obstructive airway disease,OHAS,Хроническая обструктивная болезнь легких,29
+sickle cell anemia,OHAS,Анемия,28
+coronary arteriosclerosis,OHAS,Артериосклероз,30
+cholecystitis,OHAS,Холецистит,31
+psychotic disorder,OHAS,Психическое расстройство,32
+thrombus,OHAS,Тромб,33
+chronic kidney failure,OHAS,Почечная недостаточность,9
+depressive disorder,OHAS,Депрессивное расстройство,34
+myocardial infarction,OHAS,Инфаркт миокарда,35
+obesity,OHAS,Ожирение,21
+infection urinary tract,OHAS,Инфекция мочевыводящих путей,36
+tachycardia sinus,OHAS,Тахикардия,37
+gout,OHAS,Подагра,38
+hyperglycemia,OHAS,Гипергликемия,39
+diverticulosis,OHAS,Дивертикулез,40
+failure kidney,OHAS,Почечная недостаточность,9
+schizophrenia,OHAS,Шизофрения,41
+decubitus ulcer,OHAS,Пролежневая язва,42
+encephalopathy,OHAS,Энцефалопатия,43
+affect labile,OHAS,Аффективная лабильность,44
+carcinoma prostate,OHAS,Рак,45
+Alzheimer's disease,OHAS,Болезнь Альцгеймера,46
+incontinence,OHAS,Недержание,47
+hyperbilirubinemia,OHAS,гипербилирубинемия,48
+paroxysmal dyspnea,OHAS,Параксизмальная одышка,49
+bipolar disorder,OHAS,Биполярное расстройство,50
+hepatitis,OHAS,Гепатит,51
+pericardial effusion body substance,OHAS,Перикардическое излияние,52
+adhesion,OHAS,Адгезия,53
+biliary calculus,OHAS,Желчный камень,54
+endocarditis,OHAS,Эндокардит,55
+acquired immuno-deficiency syndrome,OHAS,СПИД,56
+pneumothorax,OHAS,Пневмоторакс,57
+accident cerebrovascular,OHAS,Инсульт,58
+confusion,OHAS,Спутанность сознания,59
+candidiasis,OHAS,Кандидоз,60
+anxiety state,OHAS,Тревожное расстройство,61
+cirrhosis,OHAS,Цирроз печени,62
+pancytopenia,OHAS,Панцитопения,63
+oral candidiasis,OHAS,Кандидоз полости рта,64
+diverticulitis,OHAS,Дивертикулит,65
+spasm bronchial,OHAS,Спазм бронхов,66
+ulcer peptic,OHAS,Язва,67
+depression mental,OHAS,Депрессивное расстройство,34
+emphysema pulmonary,OHAS,Эмфизема легких,68
+hypoglycemi,OHAS,Гипогликемия,69
+dependence,OHAS,Наркотическая зависимость,70
+osteomyelitis,OHAS,Остеомиелит,71
+hemorrhoids,OHAS,Геморрой,72
+primary carcinoma of the liver cells,OHAS,Карционами печени,73
+pyelonephritis,OHAS,Пиелонефрит,74
+pancreatitis,OHAS,Панкреатит,75
+cholelithiasis,OHAS,Желчный камень,54
+cardiomyopathy,OHAS,Кардиомиопатия,76
+Pneumocystis carinii pneumonia,OHAS,Пневмония,77
+carcinoma colon,OHAS,Рак,45
+edema pulmonary,OHAS,Отек легких,78
+carcinoma breast,OHAS,Рак,45
+hemiparesis,OHAS,Гемипарез,79
+mitral valve insufficiency,OHAS,Заболевание сердца,1
+peripheral vascular disease,OHAS,Поражение сосудов,80
+tonic-clonic seizures,OHAS,Тонико-клонические судороги,81
+effusion pericardial,OHAS,Заболевание сердца,1
+thrombocytopaenia,OHAS,Тромбоцитопения,82
+adenocarcinoma,OHAS,Опухоль,13
+failure heart congestive,OHAS,Заболевание сердца,1
+exanthema,OHAS,Экзантема,83
+ischemia,OHAS,Ишемия,84
+hypertension pulmonary,OHAS,Легочная гипертензия,85
+infection,OHAS,Системаная инфекция,86
+cellulitis,OHAS,Целлюлит,87
+lymphatic diseases,OHAS,Поражение лимфоузлов,88
+gastroenteritis,OHAS,Гастроэнтерит,89
+parkinson disease,OHAS,Болезнь Паркинсона,90
+hernia,OHAS,Грыжа ,12
+kidney disease,OHAS,Почечная недостаточность,9
+colitis,OHAS,Воспаление толстых кишок,91
+deep vein thrombosis,OHAS,Тромб,33
+personality disorder,OHAS,Психическое расстройство,32
+hyperlipidemia,OHAS,Гиперлипидемия,92
+pneumonia,OHAS,Пневмония,77
+gastroesophageal reflux disease,OHAS,Гастроэзофагеальная рефлюксная болезнь,93
+pneumonia aspiration,OHAS,Пневмония,77
+stenosis aortic valve,OHAS,Заболевание сердца,1
+hypertensive disease,OHAS,Гипертония,94
+glaucoma,OHAS,Глаукома,95
+septicemia,OHAS,Заражение крови,18
+bronchitis,OHAS,Бронхит,96
+delusion,OHAS,Галлюцинации,97
+upper respiratory infection,OHAS,Инфекция верхних дыхательных путей,98
+dementia,OHAS,Слабоумие,99
+ketoacidosis diabetic,OHAS,Осложнение сахарного диабета,100
+manic disorder,OHAS,Психическое расстройство,32
+suicide attempt,OHAS,Психическое расстройство,32
+hiv infections,OHAS,ВИЧ,101
+benign prostatic hypertrophy,OHAS,Гипертрофия простаты,102
+HIV,OHAS,ВИЧ,101
+bacteremia,OHAS,Бактериемия,103
+neutropenia,OHAS,Нейтропения,104
+hepatitis B,OHAS,Гепатит Б,105
+hepatitis C,OHAS,Гепатит С,106
+coronary heart disease,OHAS,Заболевание сердца,1
+carcinoma of lung,OHAS,Рак,45
+arthritis,OHAS,Артрит,107
+malignant neoplasm of lung,OHAS,Опухоль,13
+carcinoma,OHAS,Рак,45
+delirium,OHAS,Психическое расстройство,32
+melanoma,OHAS,Опухоль,13
+kidney failure acute,OHAS,Почечная недостаточность,9
+diabetes,OHAS,Диабет,108
+systemic infection,OHAS,Системная инфекция,109
+malignant neoplasms,OHAS,Опухоль,13
+neuropathy,OHAS,Невропатия,110
+overload fluid,OHAS,Гиперволемия,111
+migraine disorders,OHAS,Мигрень,112
+fungal infection,dsp,Грибковая инфекция,113
+allergy,dsp,Аллергия,114
+GERD,dsp,Гастроэзофагеа́льная рефлю́ксная боле́знь,115
+Chronic cholestasis,dsp,Хронический холестаз,116
+Drug Reaction,dsp,Реакция на лекасртва,117
+Peptic ulcer diseae,dsp,Язва,67
+Diabetes,dsp,Диабет,108
+Bronchial Asthma,dsp,Астма,17
+Hypertension,dsp,Гипертония,94
+Cervical spondylosis,dsp,Шейный спондилез,118
+Paralysis (brain hemorrhage),dsp,Паралич,119
+Malaria,dsp,Малярия,120
+Chicken pox,dsp,Ветряная оспа,121
+Dengue,dsp,Лихорадка,122
+Typhoid,dsp,Брюшной тиф,123
+hepatitis A,dsp,Гепатит А,124
+hepatitis Д,dsp,гепатит Д,125
+hepatitis Е,dsp,гепатит Е,126
+Alcoholic hepatitis,dsp,Алкогольный гепатит,127
+Tuberculosis,dsp,туберкулёз,128
+Common Cold,dsp,Простуда,2
+Pneumonia,dsp,Пневмония,77
+Dimorphic hemmorhoids(piles),dsp,Геморрой,72
+Heart attack,dsp,Заболевание сердца,1
+Varicose veins,dsp,Варикоз,129
+Hyperthyroidism,dsp,гипертиреоз,130
+Osteoarthristis,dsp,Остеоартроз,131
+Arthritis,dsp,Артрит,107
+(vertigo) Paroymsal  Positional Vertigo,dsp,Головокружение,132
+Acne,dsp,Угри,133
+Urinary tract infection,dsp,Инфекция мочевыводящих путей,36
+Psoriasis,dsp,псориаз,134
+Impetigo,dsp,Импетиго,135
