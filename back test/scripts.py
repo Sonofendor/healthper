@@ -1,8 +1,11 @@
 import pandas as pd
+from joblib import load
+import numpy as np
 
 DATAPATH = 'C:\\project\\data.csv'
 SYMPTOMSPATH = 'C:\\project\\symptoms_unique.csv'
 DISEASEPATH = 'C:\\project\\diseases_unique.csv'
+MODELPATH = 'model.joblib'
 
 def map_labels_to_dataset(data_path, symptoms_path, disease_path):
 	'''Заменяет числовые id в data.csv на названия симптомов и болезней'''
@@ -23,11 +26,11 @@ def map_labels_to_dataset(data_path, symptoms_path, disease_path):
 	
 	data.columns = new_columns + ['disease']
 	
-	return data
+	return data, new_columns
 
 def link_symptoms_to_diseases(data_path, symptoms_path, disease_path):
 	'''Возвращает словарь, в котором ключ - название болезни, значение - список симптомов'''
-	mapped_data = map_labels_to_dataset(DATAPATH,SYMPTOMSPATH,DISEASEPATH)
+	mapped_data, columns = map_labels_to_dataset(DATAPATH,SYMPTOMSPATH,DISEASEPATH)
 
 	dictionary = dict.fromkeys(mapped_data.disease.unique())
 
@@ -36,7 +39,7 @@ def link_symptoms_to_diseases(data_path, symptoms_path, disease_path):
 			continue
 		dictionary[disease] = mapped_data.columns[(mapped_data[mapped_data.disease == disease] != 0).any()][:-1].tolist()
 
-	return dictionary
+	return dictionary, columns
 
 def input_symptoms(symptoms_path):
 	'''ввод симптомов из консоли'''
@@ -55,7 +58,7 @@ def input_symptoms(symptoms_path):
 
 def get_symptoms_by_current(current_symptoms, data_path, symptoms_path, disease_path):
 	'''возвращает все возможные симптомы по введенным'''
-	mapper = link_symptoms_to_diseases(data_path, symptoms_path, disease_path)
+	mapper, columns = link_symptoms_to_diseases(data_path, symptoms_path, disease_path)
 	symptoms_all = []
 	for symptom in current_symptoms:
 		for disease, disease_symptoms in mapper.items():
@@ -64,7 +67,7 @@ def get_symptoms_by_current(current_symptoms, data_path, symptoms_path, disease_
 			if symptom in disease_symptoms:
 				symptoms_all += disease_symptoms
 	symptoms_all = list(set(symptoms_all))
-	return symptoms_all
+	return symptoms_all, columns
 
 def ask_symptoms(data_path, symptoms_path, disease_path):
 	'''спрашивает симптомы из консоли и создает числовой массив'''
@@ -73,7 +76,7 @@ def ask_symptoms(data_path, symptoms_path, disease_path):
 	pdv = dict.fromkeys(symptoms.unified.unique(), 0)
 	
 	current_symptoms = input_symptoms(symptoms_path)
-	symptoms_all = get_symptoms_by_current(current_symptoms, data_path, symptoms_path, disease_path)
+	symptoms_all, columns = get_symptoms_by_current(current_symptoms, data_path, symptoms_path, disease_path)
 	
 	symptoms_to_ask = [s for s in symptoms_all if s not in current_symptoms]
 	for symptom in symptoms_to_ask:
@@ -90,22 +93,32 @@ def ask_symptoms(data_path, symptoms_path, disease_path):
 			except ValueError:
 				print('Число введи, ебан')
 	
-	return pdv
+	new_array = []
+	for key in columns:
+		new_array.append(pdv[key])
 
-#def get_n_max(array, labels, n = 3):
-#	'''выбирает n максимальных значений из массива и возвращает соответствующие метки'''
-#	values = []
-#	chosen_labels = []
-#	for i in range(0,len(array)):
-#		ind = array[i].argsort()[-n:][::-1]
-#		values.append(array[i][ind])
-#		chosen_labels.append(labels[ind])
-#	return values, chosen_labels
+	return np.array(new_array).reshape(1,-1)
 
+def get_n_max(array, labels, n = 3):
+	'''выбирает n максимальных значений из массива и возвращает соответствующие метки'''
+	values = []
+	chosen_labels = []
+	for i in range(0,len(array)):
+		ind = array[i].argsort()[-n:][::-1]
+		values.append(array[i][ind])
+		chosen_labels.append(labels[ind])
+	return values, chosen_labels
 
-
+def predict_diseases(model, array):
+	pred_proba = model.predict_proba(array)
+	prob, dis = get_n_max(pred_proba, model.classes_)
+	
+	print('Ваши вероятные болезни:')
+	for val, disease in zip(prob, dis):
+		print(disease,val*100)
 
 
 if __name__ == '__main__':
 	myarray = ask_symptoms(DATAPATH, SYMPTOMSPATH, DISEASEPATH)
-	print(myarray)
+	model = load(MODELPATH)
+	predict_diseases(model, myarray)
